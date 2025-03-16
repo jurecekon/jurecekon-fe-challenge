@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jure FE Test </title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="src/demo-data.js" defer></script>
+    <script src="src/utils.js" defer></script>
+    <script src="src/index.js" defer></script>
+    <script src="src/api.js" defer></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-content-container">
+        <img src="./assets/icon.svg" alt="Databox icon" class="header-icon">
+        <p class="header-title">PLATFORM ADMIN</p>
+
+        <div class="header-filters-wrapper">
+          <p class="header-filter-label">FILTER:</p>
+          <div class="header-filters">
+            <div class="header-filters-item selected">All</div>
+            <div class="header-filters-item">Free</div>
+            <div class="header-filters-item">Paying</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="search-toolbar">
+        <div class="search-toolbar-content-container">
+          <input class="search-toolbar-text-input" placeholder="Search" />
+          <button class="search-toolbar-create-button">Create new Account</button>
+        </div>
+      </div>
+
+      <div class="main-content-container">
+        <div class="table-header-row">
+          <p class="table-header-item id">ID</p>
+          <p class="table-header-item company-name">Company Name</p>
+          <p class="table-header-item email">Owner email</p>
+        </div>
+        <div class="table-data-container"></div>
+      </div>
+    </main>
+  </body>
+</html>
