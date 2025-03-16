@@ -18,5 +18,6 @@ const fetchCompanies = async (search) => {
     return hardcodedDemoData;
   } catch (error) {
     console.error(error.message);
+    return [];
   }
 }
